@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <h1>salom.world</h1>
+    <h2 class="wew">Aziz</h2>
+    <h3 class="wew">Azimovich</h3>
+    <a href="https//t.me/aziz">мой телеграм </a>
+    <img id="myPhoto" src="./photo_2024-05-27_20-26-28.jpg">
+
+    <h2>Мои навыки</h2>
+    <ul>
+        <li>html</li>
+        <li>CSS</li>
+    </ul>
+
+    <h2>Язык, которым я владею </h2>
+    <ol>
+       <li> РУССКИЙ</li>   
+       <Li> АНГЛИЙСКИЙ</Li>
+    </ol>
+     <h1>Калъкулятор</h1>
+     <div class="calc"> 
+        <label>
+            a=
+            <input type="number" name="x">
+        </label> 
+        <label>
+        b=
+        <input type="number" name="y">
+        </label> 
+            <button onclick="calcplus()">+</button>
+            <button onclick="calcminus()">-</button>
+            <button onclick="calcumnozhit()">*</button>
+            <button onclick="calcdelenie()">/</button>
+            <button onclick="calcstepen()">^</button>
+        <div id = "calcResult">Резулътат: </div>
+
+<h2>динамическая форма </h2>
+<div> class="dynamicmFor"</div>
+    <label>">
+    <option value="none">выбирети страну</option>
+    <option value="uz">узбекистан</option>
+    <option value="ru">россия</option>
+</selec>
+    </label>
+
+
+<h3>стоимости</h3>
+<div class="courseForm">
+    <label>
+        вид:
+        <select name="course" id="courseSelect" 
+        oninput="courseCalculator()">
+            <option value="none"></option>
+            <option value="python">Python</option>
+            <option value="frontend">Frontend</option>
+            <option value="da">Data аналитик</option>
+        </select>
+    </label>
+    <label>
+        скидка:
+        <input type="range"name="discountRange" oninput="courseCalculator()" 
+        min="0" max="50" value="0" step="5">
+        <span id ="discountValue">0%</span>
+    </label>
+    <label>
+        сумма:
+    <input type="number" id="coursSum" readonly>
+    </label>
+</div>
+
+
+
+    <script src="./script.js"></script>
+</body> 
+</html>
+
+
+
+  
+
+

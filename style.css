@@ -1,0 +1,20 @@
+.wew{
+    color:green;
+    display: inline;
+} 
+
+#photo{
+    width: 100px;
+
+
+}
+.calc label {
+    display: block;
+}
+
+li:first-chaid {
+    content:'';
+}
+.courseForm label{
+    display : block;
+}
