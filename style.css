@@ -18,3 +18,22 @@ li:first-chaid {
 .courseForm label{
     display : block;
 }
+@media (max-width:1000px) {
+    body {
+        background-color: yellowgreen;
+    }
+    .fio {
+        display:block;
+        margin: 0;
+        text-align:center;
+    }
+    #myPhoto{
+    width: 70%;
+    margin: 0 auto;
+    }
+}
+@media (max-width:500px) {
+    body {
+        background-color: blueviolet;
+    }
+}
